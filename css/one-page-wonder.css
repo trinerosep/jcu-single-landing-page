@@ -3,6 +3,43 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ 
+ /* New Edits 2 April 2016*/
+
+.navbargreen {	
+	border-bottom: 1px solid #ddd;
+	background: -webkit-linear-gradient(left, #77c33f , #05a84f); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(left, #77c33f, #05a84f); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(left, #77c33f, #05a84f); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to left, #77c33f , #05a84f); /* Standard syntax */
+	min-height:110px;
+}
+
+.navbar-navgreen > li > a {
+	color: #FFF;	
+    display: block;
+	padding: 0 15px;
+	font-size: 14px;
+	font-family:"Bliss Light", 'Gill Sans', Calibri, 'Helvetica Neue', Arial, sans-serif; 
+	font-size-adjust:0.47; 
+	text-transform: uppercase;
+	font-weight: 7600;
+	line-height: 100px;
+	border-bottom: 3px solid transparent;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+.navbar-navgreen > li > a:hover,
+.navbar-navgreen > li > a.selected-nav {
+	background: none;
+	color: #FFF;
+}
+
+ /* Original CSS*/
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
