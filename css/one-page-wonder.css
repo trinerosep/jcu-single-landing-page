@@ -187,6 +187,15 @@ float: right;
     width: 32px;   
 }
 
+.footer__social-list {
+    float: left;
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
 .visuallyhidden{
     display:none;
 }
