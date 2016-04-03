@@ -103,32 +103,43 @@ body {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 0;
     background-color: #D3D3D3;
     width: 100%;
+    padding-bottom: 10px;
 }
 
 .footer__heading {
     font-size: 14px;
 }
 
-footer img {
+.footer__tradition img, .footer__membership-wrapper img {
     height: 40px;
-    padding-right:10px;
+}
+
+.footer__membership-wrapper img{
+    margin-right:10px;
+}
+
+.footer__tradition img{
+    margin:10px;
 }
 
 .col-lg-12{
-    display: table;
     width: 100%;
 }
 
 .footer__tablet-reorder{
-     display: table-row;
+    position: relative;
+    height: 250px;
 }
 
 .footer__membership-wrapper{
-    display: table-cell;
-    width:32%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 32%;
+    text-align: center;
 }
 
 .footer__social-list-item{
@@ -137,31 +148,47 @@ footer img {
 
 
 .footer__tradition{
-    display: table-cell;
+    position: absolute;
+    top: 10px;
+    left: 38%;
     width: 32%;
     text-align: center;
 }
 
 .footer__explore-wrapper{
-    display: table-cell;
-    width: 32%;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 32%
 }
 .footer__campuslistfull{  
-text-align: right;  
+float: right;  
 
 }
-
-.footer__campuslist{
-    float: right;
-
-}
-
-
 
 .footer__campuslist-item{
     list-style: none;
     border-bottom: 1px #000;
     text-align: left;
+}
+
+.footer__social-and-legals {
+    margin-top:10px;
+}
+
+.footer__social-and-legals i{
+    color: #2d2d2d;
+    height: 32px;
+    width: 32px;
+}
+
+.footer__social-list-item{
+    height: 32px;
+    width: 32px;   
+}
+
+.visuallyhidden{
+    display:none;
 }
 
 
