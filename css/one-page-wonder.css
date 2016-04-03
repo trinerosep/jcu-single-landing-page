@@ -16,14 +16,14 @@
 }
 
 .navbar-nav > li > a {
-    color: #FFF;    
+    color: #FFF;  
     display: block;
-    padding: 0 15px;
+    padding: 0px 20px 5px 0;
     font-size: 14px;
     font-family:"Bliss Light", 'Gill Sans', Calibri, 'Helvetica Neue', Arial, sans-serif; 
     font-size-adjust:0.47; 
     text-transform: uppercase;
-    font-weight: 7600;
+    font-weight: normal;
     line-height: 100px;
     border-bottom: 3px solid transparent;
     -webkit-transition: all 250ms ease-in-out;
@@ -31,12 +31,18 @@
     -o-transition: all 250ms ease-in-out;
     -ms-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
+    letter-spacing: 1px;
 }
 
-.navbar-nav > li > a:hover,
+.navbar-nav > li > a:hover{
+    background: none;
+    font-weight: normal;
+    color: #D3D3D3;
+}
 .navbar-nav > li > a.selected-nav {
     background: none;
-    color: #FFF;
+    font-weight: normal;
+    color: #D3D3D3;  
 }
 
 
@@ -57,10 +63,11 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin: 0 auto;
 }
 
 .headline {
-    padding: 120px 0;
+    padding: 220px 0;
 }
 
 .headline h1 {
@@ -76,7 +83,7 @@ body {
 }
 
 .featurette-divider {
-    margin: 80px 0;
+    margin: 10px 0;
 }
 
 .featurette {
@@ -97,7 +104,67 @@ body {
 
 footer {
     margin: 50px 0;
+    background-color: #D3D3D3;
+    width: 100%;
 }
+
+.footer__heading {
+    font-size: 14px;
+}
+
+footer img {
+    height: 40px;
+    padding-right:10px;
+}
+
+.col-lg-12{
+    display: table;
+    width: 100%;
+}
+
+.footer__tablet-reorder{
+     display: table-row;
+}
+
+.footer__membership-wrapper{
+    display: table-cell;
+    width:32%;
+}
+
+.footer__social-list-item{
+    display: inline-block;
+}
+
+
+.footer__tradition{
+    display: table-cell;
+    width: 32%;
+    text-align: center;
+}
+
+.footer__explore-wrapper{
+    display: table-cell;
+    width: 32%;
+}
+.footer__campuslistfull{  
+text-align: right;  
+
+}
+
+.footer__campuslist{
+    float: right;
+
+}
+
+
+
+.footer__campuslist-item{
+    list-style: none;
+    border-bottom: 1px #000;
+    text-align: left;
+}
+
+
 
 @media(max-width:1200px) {
     .headline h1 {
@@ -109,7 +176,7 @@ footer {
     }
 
     .featurette-divider {
-        margin: 50px 0;
+        margin: 10px 0;
     }
 
     .featurette-image.pull-left {
@@ -135,7 +202,7 @@ footer {
     }
 
     .featurette-divider {
-        margin: 40px 0;
+        margin: 10px 0;
     }
 
     .featurette-image {
@@ -161,7 +228,7 @@ footer {
     }
 
     .featurette-divider {
-        margin: 40px 0;
+        margin: 10px 0;
     }
 
     .featurette-heading {
@@ -179,7 +246,7 @@ footer {
     }
 
     .featurette-divider {
-        margin: 30px 0;
+        margin: 6px 0;
     }
 }
 
@@ -199,7 +266,7 @@ footer {
 
 @media(max-width:375px) {
     .featurette-divider {
-        margin: 10px 0;
+        margin: 4px 0;
     }
 
     .featurette-image {

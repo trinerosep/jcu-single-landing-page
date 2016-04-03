@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Bootstrap v3.3.6 (http://getbootstrap.com) **Edited**
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -1265,11 +1265,11 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 28px;
 }
 h3,
 .h3 {
@@ -4196,6 +4196,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-collapse {
+    float:right;
     width: auto;
     border-top: 0;
     -webkit-box-shadow: none;
@@ -4276,9 +4277,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 0 15px 0;
-  margin-bottom: 15px;
+  padding: 0px ;
   font-size: 18px;
   line-height: 20px;
 }
