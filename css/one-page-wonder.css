@@ -58,7 +58,7 @@ body {
     width: 100%;
     max-width: 1400px;
     text-align: center;
-    background: url(background_images/header_rainforest.jpg) no-repeat center center scroll;
+    background: url(http://placehold.it/1400x380) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
