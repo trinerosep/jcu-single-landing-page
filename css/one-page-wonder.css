@@ -58,7 +58,7 @@ body {
     width: 100%;
     max-width: 1400px;
     text-align: center;
-    background: url(http://placehold.it/1400x380) no-repeat center center fixed;
+    background: url("http://placehold.it/1400x380") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -67,7 +67,7 @@ body {
 }
 
 .headline {
-    padding: 220px 0;
+    padding: 190px 0;
 }
 
 .headline h1 {
