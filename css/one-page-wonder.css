@@ -8,10 +8,10 @@
 
 .navbar {   
     border-bottom: 1px solid #ddd;
-    background: -webkit-linear-gradient(left, #77c33f , #05a84f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #77c33f, #05a84f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #77c33f, #05a84f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left, #77c33f , #05a84f); /* Standard syntax */
+    background: -webkit-linear-gradient(left, #77c33f , #05a84f) #77c33f ; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #77c33f, #05a84f) #77c33f ; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #77c33f, #05a84f) #77c33f ; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #77c33f , #05a84f) #77c33f; /* Standard syntax */
     min-height:110px;
 }
 
@@ -58,13 +58,16 @@ body {
     width: 100%;
     max-width: 1400px;
     text-align: center;
-    background: url(background_images/header_rainforest.jpg) no-repeat center center scroll;
+    background: url(http://placehold.it/1400x380) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
     margin: 0 auto;
+ 
 }
+
 
 .headline {
     padding: 220px 0;
@@ -174,6 +177,7 @@ float: right;
 
 .footer__social-and-legals {
     margin-top:10px;
+    height: 32px;
 }
 
 .icon-circlefacebook, .icon-circletwitter, .icon-youtube, .icon-circlegoogleplus, .icon-rss {
