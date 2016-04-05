@@ -64,11 +64,10 @@ body {
     background-size: cover;
     -o-background-size: cover;
     margin: 0 auto;
-    height:380px;
 }
 
 .headline {
-    padding:190px 0;
+    padding:220px 0;
 }
 
 .headline h1 {
