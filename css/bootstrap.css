@@ -1083,10 +1083,12 @@ html {
 }
 body {
   font-family:'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
 }
 input,
 button,
