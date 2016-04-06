@@ -60,14 +60,56 @@ body {
     width: 100%;
     max-width: 1400px;
     text-align: center;
-    background: url("http://placehold.it/1400x380") no-repeat center center fixed;
+    background: url("http://placehold.it/1400x380") no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     margin: 0 auto;
- 
+    height: 380px;
 }
+
+@media(max-width:1400px) {
+  .header-image {
+    height: 380px
+  }
+
+}
+
+@media(max-width:991px){
+  .header-image {
+    height: 380px
+  }
+}
+
+
+@media(max-width:768px){
+  .header-image {
+    height: 300px
+  }
+}
+
+
+@media(max-width:668px){
+  .header-image {
+    height: 300px
+  }
+}
+
+
+@media(max-width:640px) {
+  .header-image {
+    height: 200px
+  }
+}
+
+
+@media(max-width:375px){
+  .header-image {
+    height: 100px
+  }
+}
+
 
 
 .headline {
