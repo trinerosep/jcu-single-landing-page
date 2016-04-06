@@ -61,10 +61,10 @@ body {
     max-width: 1400px;
     text-align: center;
     background: url("http://placehold.it/1400x380") no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
     margin: 0 auto;
     height: 380px;
 }
