@@ -8,11 +8,12 @@
 
 .navbar {   
     border-bottom: 1px solid #ddd;
-    background: -webkit-linear-gradient(left, #77c33f , #05a84f) #77c33f ; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #77c33f, #05a84f) #77c33f ; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #77c33f, #05a84f) #77c33f ; /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left, #77c33f , #05a84f) #77c33f; /* Standard syntax */
-    background-image: linear-gradient(to left, #77c33f , #05a84f) #77c33f; /* IE 10 to 11 */   
+    background-image: -webkit-gradient(linear,left top,right top,from(#00a651),to(#d6e040)); /* For Safari 5.1 to 6.0 */
+    background-image: -webkit-linear-gradient(left,#00a651 0,#d6e040 100%); /* For Firefox 3.6 to 15 */
+    background-image: -o-linear-gradient(left,#00a651 0,#d6e040 100%); /* For Opera 11.1 to 12.0 */
+    background-image: linear-gradient(to right,#00a651 0,#d6e040 100%); /* Standard syntax */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF00A651', endColorstr='#FFD6E040', GradientType=1); /* IE 10 to 11 */ 
+    background-repeat: repeat-x;
     min-height:110px;
 }
 
@@ -70,7 +71,7 @@ body {
 
 
 .headline {
-    padding:220px 0;
+    padding:0;
 }
 
 .headline h1 {
