@@ -5,6 +5,38 @@
  */
  
  /* New Edits 2 April 2016*/
+ 
+ .fixed_button {
+    position:fixed; 
+    top:10px; 
+    z-index:2000; 
+    right:200px
+ }
+ 
+ .feature_thumbnails{
+    display: block; 
+    padding: 4px 10px; 
+    margin-bottom: 20px; 
+    line-height: 1.42857143; 
+    text-align:center
+ }
+
+.iframe_container{
+    position:relative; 
+    width:100%; 
+    height:0px; 
+    padding-bottom:56.25%
+}
+
+.iframe_youtube {
+    position:absolute; 
+    left:0; 
+    top:0; 
+    width:100%; 
+    height:100%; 
+    padding-bottom:16px
+}
+ 
 
 .navbar {   
     border-bottom: 1px solid #ddd;
