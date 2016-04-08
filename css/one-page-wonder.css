@@ -99,7 +99,7 @@ body {
     width: 100%;
     max-width: 2200px;
     text-align: center;
-    background: url("http://placehold.it/2200x380") no-repeat top center scroll;
+    background: url("./background_images/sci_exp_banner.jpg") no-repeat top center scroll;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     background-size: auto;
