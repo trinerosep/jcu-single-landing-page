@@ -51,16 +51,16 @@
  /* Original CSS*/
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 106px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 
 .header-image {
     display: block;
     width: 100%;
-    max-width: 1400px;
+    max-width: 2200px;
     text-align: center;
-    background: url("http://placehold.it/1400x380") no-repeat top center fixed;
+    background: url("http://placehold.it/2200x380") no-repeat top center scroll;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     background-size: auto;
@@ -191,20 +191,22 @@ footer {
     top: 10px;
     width: 32%;
     text-align: center;
+    padding-top:10px;
 }
 
 
 .footer__tradition{
     float: left;
     top: 10px;
-    width: 32%;
+    width: 42%;
+    padding-left:10px;
     text-align: center;
 }
 
 .footer__explore-wrapper{
-    float: left;
+    float: right;
     top: 10px;
-    width: 32%;
+    width: 22%;
 }
 
 @media screen and (max-width: 980px) {
