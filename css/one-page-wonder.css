@@ -6,6 +6,13 @@
  
  /* New Edits 2 April 2016*/
  
+ .fixed_top {
+    display: block; 
+    height: 110px; 
+    margin-top: -110px; 
+    visibility: hidden
+ }
+ 
  .fixed_button {
     position:fixed; 
     top:10px; 
