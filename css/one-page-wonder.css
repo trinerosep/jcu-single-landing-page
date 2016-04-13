@@ -6,6 +6,26 @@
  
  /* New Edits 2 April 2016*/
  
+ @media(max-width:640px) {
+ .fixed_button {
+    display:none; 
+ }
+}
+
+
+@media(max-width:640px) {
+  header.header-image {
+    display:none;
+  }
+}
+
+
+@media(max-width:640px) {
+  .navbar-fixed-top{
+    position:absolute;
+  }
+}
+ 
  .fixed_top {
     display: block; 
     height: 110px; 
@@ -134,21 +154,6 @@ body {
     height: 300px
   }
 }
-
-
-@media(max-width:640px) {
-  .header-image {
-    height: 200px
-  }
-}
-
-
-@media(max-width:375px){
-  .header-image {
-    height: 100px
-  }
-}
-
 
 
 .headline {
